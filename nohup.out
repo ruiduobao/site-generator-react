@@ -1,0 +1,362 @@
+yarn run v1.22.17
+$ next start
+Error: listen EADDRINUSE: address already in use 0.0.0.0:3000
+    at Server.setupListenHandle [as _listen2] (node:net:1334:16)
+    at listenInCluster (node:net:1382:12)
+    at doListen (node:net:1520:7)
+    at processTicksAndRejections (node:internal/process/task_queues:84:21) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '0.0.0.0',
+  port: 3000
+}
+error Command failed with exit code 1.
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
+yarn run v1.22.17
+$ next start -p 3003
+ready - started server on 0.0.0.0:3003, url: http://localhost:3003
+./yunxing.sh: line 1: 13777 Hangup                  yarn start -p 3003
+yarn run v1.22.17
+$ next start -p 3003
+ready - started server on 0.0.0.0:3003, url: http://localhost:3003
+yarn run v1.22.17
+$ next start -p 3003
+ready - started server on 0.0.0.0:3003, url: http://localhost:3003
+./yunxing.sh: line 1: 14882 Hangup                  yarn start -p 3003
+yarn run v1.22.17
+$ next start -p 3003
+ready - started server on 0.0.0.0:3003, url: http://localhost:3003
+TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string. Received undefined
+    at new NodeError (node:internal/errors:371:5)
+    at validateString (node:internal/validators:119:11)
+    at resolve (node:path:1098:7)
+    at resolvePath (/www/wwwroot/sc.gisrsdata.com/site-generator-react/.next/server/pages/api/config.js:80:55)
+    at /www/wwwroot/sc.gisrsdata.com/site-generator-react/.next/server/pages/api/article.js:156:88 {
+  code: 'ERR_INVALID_ARG_TYPE'
+}
+TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string. Received undefined
+    at new NodeError (node:internal/errors:371:5)
+    at validateString (node:internal/validators:119:11)
+    at resolve (node:path:1098:7)
+    at resolvePath (/www/wwwroot/sc.gisrsdata.com/site-generator-react/.next/server/pages/api/config.js:80:55)
+    at /www/wwwroot/sc.gisrsdata.com/site-generator-react/.next/server/pages/api/article.js:156:88 {
+  code: 'ERR_INVALID_ARG_TYPE'
+}
+TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string. Received undefined
+    at new NodeError (node:internal/errors:371:5)
+    at validateString (node:internal/validators:119:11)
+    at resolve (node:path:1098:7)
+    at resolvePath (/www/wwwroot/sc.gisrsdata.com/site-generator-react/.next/server/pages/api/config.js:80:55)
+    at /www/wwwroot/sc.gisrsdata.com/site-generator-react/.next/server/pages/api/article.js:156:88 {
+  code: 'ERR_INVALID_ARG_TYPE'
+}
+TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string. Received undefined
+    at new NodeError (node:internal/errors:371:5)
+    at validateString (node:internal/validators:119:11)
+    at resolve (node:path:1098:7)
+    at resolvePath (/www/wwwroot/sc.gisrsdata.com/site-generator-react/.next/server/pages/api/config.js:80:55)
+    at /www/wwwroot/sc.gisrsdata.com/site-generator-react/.next/server/pages/api/article.js:156:88 {
+  code: 'ERR_INVALID_ARG_TYPE'
+}
+yarn run v1.22.17
+$ next start -p 3004
+ready - started server on 0.0.0.0:3004, url: http://localhost:3004
+info  - Loaded env from /www/wwwroot/sc.gisrsdata.com/site-generator-react/.env.local
+Error: `password` cannot be set without `user`
+    at new SMTPConnection (file:///www/wwwroot/sc.gisrsdata.com/site-generator-react/node_modules/emailjs/rollup/email.mjs:1246:19)
+    at new SMTPClient (file:///www/wwwroot/sc.gisrsdata.com/site-generator-react/node_modules/emailjs/rollup/email.mjs:1852:21)
+    at /www/wwwroot/sc.gisrsdata.com/site-generator-react/.next/server/chunks/825.js:112:16
+Error: `password` cannot be set without `user`
+    at new SMTPConnection (file:///www/wwwroot/sc.gisrsdata.com/site-generator-react/node_modules/emailjs/rollup/email.mjs:1246:19)
+    at new SMTPClient (file:///www/wwwroot/sc.gisrsdata.com/site-generator-react/node_modules/emailjs/rollup/email.mjs:1852:21)
+    at /www/wwwroot/sc.gisrsdata.com/site-generator-react/.next/server/chunks/825.js:112:16
+{
+  host: 'sc.gisrsdata.com:3003',
+  connection: 'keep-alive',
+  'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36',
+  accept: '*/*',
+  referer: 'http://sc.gisrsdata.com:3003/',
+  'accept-encoding': 'gzip, deflate',
+  'accept-language': 'zh-CN,zh;q=0.9'
+}
+{
+  host: 'sc.gisrsdata.com:3003',
+  connection: 'keep-alive',
+  'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36',
+  accept: '*/*',
+  referer: 'http://sc.gisrsdata.com:3003/',
+  'accept-encoding': 'gzip, deflate',
+  'accept-language': 'zh-CN,zh;q=0.9'
+}
+{
+  host: 'sc.gisrsdata.com:3003',
+  connection: 'keep-alive',
+  'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36',
+  accept: '*/*',
+  referer: 'http://sc.gisrsdata.com:3003/',
+  'accept-encoding': 'gzip, deflate',
+  'accept-language': 'zh-CN,zh;q=0.9'
+}
+{
+  host: 'sc.gisrsdata.com:3003',
+  connection: 'keep-alive',
+  'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36',
+  accept: '*/*',
+  referer: 'http://sc.gisrsdata.com:3003/',
+  'accept-encoding': 'gzip, deflate',
+  'accept-language': 'zh-CN,zh;q=0.9'
+}
+{
+  host: 'sc.gisrsdata.com:3003',
+  connection: 'keep-alive',
+  'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36',
+  dnt: '1',
+  accept: '*/*',
+  referer: 'http://sc.gisrsdata.com:3003/',
+  'accept-encoding': 'gzip, deflate',
+  'accept-language': 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en;q=0.7',
+  cookie: 'Hm_lvt_6bf5928f8f71a10667000834a503ff61=1639282493,1639297570,1639375203,1639542700; Hm_lvt_a5d8638f6272059b83cf3287169064ef=1643041102,1643219699,1643296984,1643371442; Hm_lpvt_a5d8638f6272059b83cf3287169064ef=1643379325'
+}
+{
+  host: 'sc.gisrsdata.com:3003',
+  'upgrade-insecure-requests': '1',
+  'user-agent': 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.7340.1191 Mobile Safari/537.36',
+  'accept-language': 'zh,zh-CN;q=0.9',
+  'accept-encoding': 'gzip, deflate',
+  accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  connection: 'Keep-Alive'
+}
+TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string. Received undefined
+    at new NodeError (node:internal/errors:371:5)
+    at validateString (node:internal/validators:119:11)
+    at resolve (node:path:1098:7)
+    at resolvePath (/www/wwwroot/sc.gisrsdata.com/site-generator-react/.next/server/pages/api/config.js:80:55)
+    at /www/wwwroot/sc.gisrsdata.com/site-generator-react/.next/server/pages/api/article.js:156:88 {
+  code: 'ERR_INVALID_ARG_TYPE'
+}
+yarn run v1.22.17
+$ next start -p 3004
+Error: listen EADDRINUSE: address already in use 0.0.0.0:3004
+    at Server.setupListenHandle [as _listen2] (node:net:1334:16)
+    at listenInCluster (node:net:1382:12)
+    at doListen (node:net:1520:7)
+    at processTicksAndRejections (node:internal/process/task_queues:84:21) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '0.0.0.0',
+  port: 3004
+}
+error Command failed with exit code 1.
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
+yarn run v1.22.17
+$ next start -p 3005
+ready - started server on 0.0.0.0:3005, url: http://localhost:3005
+info  - Loaded env from /www/wwwroot/sc.gisrsdata.com/site-generator-react/.env.local
+Error: Could not find a production build in the '/www/wwwroot/sc.gisrsdata.com/site-generator-react/.next' directory. Try building your app with 'next build' before starting the production server. https://nextjs.org/docs/messages/production-start-no-build-id
+    at Server.readBuildId (/www/wwwroot/sc.gisrsdata.com/site-generator-react/node_modules/next/dist/server/next-server.js:1862:23)
+    at new Server (/www/wwwroot/sc.gisrsdata.com/site-generator-react/node_modules/next/dist/server/next-server.js:100:29)
+    at NextServer.createServer (/www/wwwroot/sc.gisrsdata.com/site-generator-react/node_modules/next/dist/server/next.js:105:16)
+    at async /www/wwwroot/sc.gisrsdata.com/site-generator-react/node_modules/next/dist/server/next.js:117:31
+error Command failed with exit code 1.
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
+yarn run v1.22.17
+$ next start -p 3005
+ready - started server on 0.0.0.0:3005, url: http://localhost:3005
+info  - Loaded env from /www/wwwroot/sc.gisrsdata.com/site-generator-react/.env.local
+Error: Could not find a production build in the '/www/wwwroot/sc.gisrsdata.com/site-generator-react/.next' directory. Try building your app with 'next build' before starting the production server. https://nextjs.org/docs/messages/production-start-no-build-id
+    at Server.readBuildId (/www/wwwroot/sc.gisrsdata.com/site-generator-react/node_modules/next/dist/server/next-server.js:1862:23)
+    at new Server (/www/wwwroot/sc.gisrsdata.com/site-generator-react/node_modules/next/dist/server/next-server.js:100:29)
+    at NextServer.createServer (/www/wwwroot/sc.gisrsdata.com/site-generator-react/node_modules/next/dist/server/next.js:105:16)
+    at async /www/wwwroot/sc.gisrsdata.com/site-generator-react/node_modules/next/dist/server/next.js:117:31
+error Command failed with exit code 1.
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
+yarn run v1.22.17
+$ next start -p 3005
+ready - started server on 0.0.0.0:3005, url: http://localhost:3005
+info  - Loaded env from /www/wwwroot/sc.gisrsdata.com/site-generator-react/.env.local
+Error: Could not find a production build in the '/www/wwwroot/sc.gisrsdata.com/site-generator-react/.next' directory. Try building your app with 'next build' before starting the production server. https://nextjs.org/docs/messages/production-start-no-build-id
+    at Server.readBuildId (/www/wwwroot/sc.gisrsdata.com/site-generator-react/node_modules/next/dist/server/next-server.js:1862:23)
+    at new Server (/www/wwwroot/sc.gisrsdata.com/site-generator-react/node_modules/next/dist/server/next-server.js:100:29)
+    at NextServer.createServer (/www/wwwroot/sc.gisrsdata.com/site-generator-react/node_modules/next/dist/server/next.js:105:16)
+    at async /www/wwwroot/sc.gisrsdata.com/site-generator-react/node_modules/next/dist/server/next.js:117:31
+error Command failed with exit code 1.
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
+yarn run v1.22.17
+$ next dev -p 2090
+ready - started server on 0.0.0.0:2090, url: http://localhost:2090
+info  - Loaded env from /www/wwwroot/sc.gisrsdata.com/site-generator-react/.env.local
+info  - Disabled SWC as replacement for Babel because of custom Babel configuration ".babelrc" https://nextjs.org/docs/messages/swc-disabled
+event - compiled successfully in 1978 ms (206 modules)
+wait  - compiling /manage/submit...
+info  - Using external babel configuration from /www/wwwroot/sc.gisrsdata.com/site-generator-react/.babelrc
+event - compiled successfully in 3s (1239 modules)
+wait  - compiling /_error...
+event - compiled successfully in 572 ms (1240 modules)
+error - Error: `password` cannot be set without `user`
+wait  - compiling /...
+event - compiled successfully in 598 ms (899 modules)
+wait  - compiling /manage/submit (client only)...
+event - compiled successfully in 276 ms (1238 modules)
+wait  - compiling /manage/submit...
+event - compiled successfully in 364 ms (1248 modules)
+wait  - compiling /api/config (server only)...
+wait  - compiling /api/author (server only)...
+event - compiled successfully in 247 ms (1262 modules)
+event - compiled successfully (1263 modules)
+wait  - compiling /api/article (server only)...
+event - compiled successfully in 169 ms (1271 modules)
+error - Error: `password` cannot be set without `user`
+wait  - compiling /_error...
+event - compiled successfully in 172 ms (1272 modules)
+wait  - compiling /...
+event - compiled successfully in 414 ms (1238 modules)
+wait  - compiling /manage/submit...
+event - compiled successfully in 429 ms (1271 modules)
+wait  - compiling /_error...
+event - compiled successfully in 153 ms (1238 modules)
+wait  - compiling /manage/review (client only)...
+event - compiled successfully in 2.5s (1395 modules)
+wait  - compiling /manage/review...
+event - compiled successfully in 484 ms (1417 modules)
+{
+  host: 'sc.gisrsdata.com:2090',
+  connection: 'keep-alive',
+  'user-agent': 'Mozilla/5.0 (Linux; U; Android 11; zh-cn; M2102K1AC Build/RKQ1.201112.002) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/89.0.4389.116 Mobile Safari/537.36 XiaoMi/MiuiBrowser/15.9.16 swan-mibrowser',
+  accept: '*/*',
+  referer: 'http://sc.gisrsdata.com:2090/',
+  'accept-encoding': 'gzip, deflate',
+  'accept-language': 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  cookie: 'Hm_lvt_a5d8638f6272059b83cf3287169064ef=1643859786; Hm_lpvt_a5d8638f6272059b83cf3287169064ef=1643859786'
+}
+wait  - compiling /login (client only)...
+event - compiled successfully in 739 ms (1421 modules)
+wait  - compiling /manage/submit...
+event - compiled successfully in 159 ms (1440 modules)
+wait  - compiling /...
+event - compiled successfully in 191 ms (1237 modules)
+wait  - compiling /_error...
+event - compiled successfully in 129 ms (1213 modules)
+wait  - compiling /...
+event - compiled successfully in 344 ms (1237 modules)
+wait  - compiling /manage/submit...
+event - compiled successfully in 118 ms (1271 modules)
+wait  - compiling /manage/review...
+event - compiled successfully in 203 ms (1439 modules)
+{
+  host: 'sc.gisrsdata.com:2090',
+  'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'content-type': 'application/x-www-form-urlencoded',
+  dnt: '1',
+  'accept-encoding': 'gzip'
+}
+wait  - compiling /login...
+event - compiled successfully in 321 ms (1442 modules)
+wait  - compiling /...
+event - compiled successfully in 197 ms (1237 modules)
+wait  - compiling /_error...
+event - compiled successfully in 144 ms (1213 modules)
+wait  - compiling /...
+event - compiled successfully in 138 ms (1237 modules)
+wait  - compiling /_error...
+event - compiled successfully in 333 ms (1213 modules)
+wait  - compiling /...
+event - compiled successfully in 174 ms (1238 modules)
+wait  - compiling /manage/submit...
+event - compiled successfully in 159 ms (1271 modules)
+wait  - compiling /api/config (server only)...
+wait  - compiling /api/author (server only)...
+event - compiled successfully in 546 ms (1261 modules)
+event - compiled successfully (1262 modules)
+wait  - compiling /...
+event - compiled successfully in 172 ms (1237 modules)
+wait  - compiling /manage/submit...
+event - compiled successfully in 152 ms (1247 modules)
+wait  - compiling /_error...
+event - compiled successfully in 381 ms (1213 modules)
+wait  - compiling /...
+event - compiled successfully in 121 ms (1237 modules)
+wait  - compiling /_error...
+event - compiled successfully in 130 ms (1213 modules)
+wait  - compiling /...
+event - compiled successfully in 167 ms (1237 modules)
+wait  - compiling /_error...
+event - compiled successfully in 171 ms (1213 modules)
+wait  - compiling /...
+event - compiled successfully in 245 ms (1238 modules)
+wait  - compiling /manage/review...
+event - compiled successfully in 832 ms (1414 modules)
+{
+  'cache-control': 'no-cache',
+  connection: 'Keep-Alive',
+  pragma: 'no-cache',
+  accept: '*/*',
+  'accept-encoding': 'gzip, deflate',
+  from: 'bingbot(at)microsoft.com',
+  host: 'sc.gisrsdata.com',
+  'user-agent': 'Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)'
+}
+wait  - compiling /login...
+event - compiled successfully in 683 ms (1420 modules)
+wait  - compiling /manage/submit...
+event - compiled successfully in 168 ms (1442 modules)
+wait  - compiling /...
+event - compiled successfully in 172 ms (1237 modules)
+wait  - compiling /manage/submit...
+event - compiled successfully in 117 ms (1271 modules)
+wait  - compiling /_error...
+event - compiled successfully in 411 ms (1213 modules)
+wait  - compiling /manage/review...
+event - compiled successfully in 134 ms (1415 modules)
+{
+  host: 'sc.gisrsdata.com',
+  accept: 'text/html, application/rss+xml, application/atom+xml, text/xml, text/rss+xml, application/xhtml+xml',
+  'accept-encoding': 'gzip,deflate',
+  connection: 'close',
+  'user-agent': 'Mozilla/5.0 (compatible; SemrushBot/7~bl; +http://www.semrush.com/bot.html)'
+}
+wait  - compiling /login...
+event - compiled successfully in 117 ms (1421 modules)
+wait  - compiling /manage/submit...
+event - compiled successfully in 124 ms (1248 modules)
+wait  - compiling /...
+event - compiled successfully in 250 ms (1237 modules)
+wait  - compiling /manage/review (client only)...
+event - compiled successfully in 179 ms (1370 modules)
+wait  - compiling /manage/submit...
+event - compiled successfully in 167 ms (1405 modules)
+wait  - compiling /api/author (server only)...
+wait  - compiling /api/config (server only)...
+event - compiled successfully in 321 ms (1229 modules)
+wait  - compiling /api/article (server only)...
+event - compiled successfully in 220 ms (1242 modules)
+wait  - compiling /manage/submit...
+event - compiled successfully in 313 ms (1270 modules)
+wait  - compiling /...
+event - compiled successfully in 108 ms (1294 modules)
+wait  - compiling /_error...
+event - compiled successfully in 215 ms (1213 modules)
+wait  - compiling /...
+event - compiled successfully in 519 ms (1237 modules)
+wait  - compiling /manage/submit...
+event - compiled successfully in 197 ms (1271 modules)
+wait  - compiling /manage/review...
+event - compiled successfully in 952 ms (1439 modules)
+{
+  host: 'sc.gisrsdata.com:2090',
+  'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'content-type': 'application/x-www-form-urlencoded',
+  dnt: '1',
+  'accept-encoding': 'gzip'
+}
+wait  - compiling /login...
+event - compiled successfully in 709 ms (1445 modules)
+wait  - compiling /_error...
+event - compiled successfully in 162 ms (1213 modules)
+wait  - compiling /manage/submit...
+event - compiled successfully in 260 ms (1248 modules)
+error Command failed with signal "SIGHUP".
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
